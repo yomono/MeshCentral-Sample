@@ -1,7 +1,7 @@
 {
   "name": "Sample Plugin yomono",
   "shortName": "sample2",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Cristian",
   "description": "Test Plugin.",
   "hasAdminPanel": false,
