@@ -12,13 +12,15 @@ module.exports.sample = function (parent) {
     var obj = {};
     obj.parent = parent; // keep a reference to the parent
     obj.exports = [
-      "onWebUIStartupEnd" // export this function to the web UI
+      "goPageStart" // export this function to the web UI
     ];
     
-    obj.onWebUIStartupEnd = function() {  // this is called when the desktop disconnect button is clicked
+    obj.goPageStart = function() {  
+        alert('testing');
+        // this is called when the desktop disconnect button is clicked
       //  writeDeviceEvent(encodeURIComponent(currentNode._id));  // mimic what the button does on the device main page to pull up a log
-        Q('d2devEvent').value = 'probando: '; // pre-fill the date for a timestamp
-        focusTextBox('d2devEvent');
+       // Q('d2devEvent').value = 'probando: '; // pre-fill the date for a timestamp
+        //focusTextBox('d2devEvent');
     }
     
     return obj;
