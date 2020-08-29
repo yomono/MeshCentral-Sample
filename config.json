@@ -3,16 +3,16 @@
   "shortName": "sample2",
   "version": "0.0.5",
   "author": "Cristian",
-  "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
+  "description": "Test Plugin.",
   "hasAdminPanel": false,
-  "homepage": "https://github.com/yomono/MeshCentral-Sample",
-  "changelogUrl": "https://raw.githubusercontent.com/yomono/MeshCentral-Sample/master/changelog.md",
-  "configUrl": "https://raw.githubusercontent.com/yomono/MeshCentral-Sample/master/config.json",
-  "downloadUrl": "https://github.com/yomono/MeshCentral-Sample/archive/master.zip",
+  "homepage": "https://github.com/yomono/testpluginyomono",
+  "changelogUrl": "https://raw.githubusercontent.com/yomono/testpluginyomono/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/yomono/testpluginyomono/master/config.json",
+  "downloadUrl": "https://github.com/yomono/testpluginyomono/archive/master.zip",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yomono/MeshCentral-Sample.git"
+    "url": "https://github.com/yomono/testpluginyomono.git"
   },
-  "versionHistoryUrl": "https://api.github.com/repos/yomono/MeshCentral-Sample/tags",
+  "versionHistoryUrl": "https://api.github.com/repos/yomono/testpluginyomono/tags",
   "meshCentralCompat": ">=0.4.4-s"
 }
