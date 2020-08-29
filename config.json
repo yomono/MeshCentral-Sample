@@ -1,7 +1,7 @@
 {
   "name": "Sample Plugin yomono",
   "shortName": "sample2",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "author": "Cristian",
   "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
   "hasAdminPanel": false,
