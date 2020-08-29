@@ -12,7 +12,7 @@ module.exports.sample = function (parent) {
     var obj = {};
     obj.parent = parent; // keep a reference to the parent
     obj.exports = [
-      "onDesktopDisconnect";
+      "onDesktopDisconnect",
        "onWebUIStartupEnd"// export this function to the web UI
     ];
     
@@ -20,7 +20,7 @@ module.exports.sample = function (parent) {
         writeDeviceEvent(encodeURIComponent(currentNode._id));  // mimic what the button does on the device main page to pull up a log
         Q('d2devEvent').value = Date().toLocaleString()+': '; // pre-fill the date for a timestamp
         focusTextBox('d2devEvent');
-    }
+    };
     
     obj.onWebUIStartupEnd = function() {
         var ld = document.querySelectorAll('#p2AccountActions > p.mL')[0];
