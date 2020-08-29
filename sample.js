@@ -12,10 +12,10 @@ module.exports.sample = function (parent) {
     var obj = {};
     obj.parent = parent; // keep a reference to the parent
     obj.exports = [
-      "goPageStart" // export this function to the web UI
+      "onDesktopDisconnect" // export this function to the web UI
     ];
     
-    obj.goPageStart = function() {  
+    obj.onDesktopDisconnect = function() {  
         alert('testing');
         // this is called when the desktop disconnect button is clicked
       //  writeDeviceEvent(encodeURIComponent(currentNode._id));  // mimic what the button does on the device main page to pull up a log
