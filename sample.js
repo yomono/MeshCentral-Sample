@@ -23,11 +23,12 @@ module.exports.sample = function (parent) {
     };
     
     obj.onWebUIStartupEnd = function() {
-        var ld = document.querySelectorAll('#p2AccountActions > p.mL')[0];
+        alert('probando');
+     /**    var ld = document.querySelectorAll('#p2AccountActions > p.mL')[0];
         var as = Q('plugin_testcristianSettings');
         if (as) as.parentNode.removeChild(as);
         var x = '<span id="plugin_testcristianSettings" style="display: block;"><a onclick="pluginHandler.routeplus.openSettings();">aver</a></span>';
-        ld.innerHTML += x;
+        ld.innerHTML += x;*/
     };
     
     return obj;
