@@ -8,7 +8,7 @@
 
 "use strict";
 
-module.exports.sample = function (parent) {
+module.exports.testpluginyomono = function (parent) {
     var obj = {};
     obj.parent = parent; // keep a reference to the parent
     obj.exports = [
